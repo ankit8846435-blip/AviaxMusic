@@ -42,7 +42,7 @@ class Config:
             if url and "batbin.me" in url
         ]
         self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://repgyetdcodkynrbxocg.supabase.co/storage/v1/object/public/images/telegram-1778831823743-da6ecd4e.jpg")
-        self.PING_IMG = getenv("PING_IMG", "https://files.catbox.moe/haagg2.png")
+        self.PING_IMG = getenv("PING_IMG", "https://repgyetdcodkynrbxocg.supabase.co/storage/v1/object/public/images/telegram-1778831823743-da6ecd4e.jpg")
         self.START_IMG = getenv("START_IMG", "https://files.catbox.moe/zvziwk.jpg")
 
     def check(self):
